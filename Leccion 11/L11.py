@@ -15,7 +15,7 @@ cursor.execute("INSERT INTO Alumnos(nombre,apellido) VALUES('Marzo', 'Otorres')"
 cursor.execute("INSERT INTO Alumnos(nombre,apellido) VALUES('Martacosa', 'Iglesias')")
 conecion.commit()
 
-cursor.execute("SELECT * FROM Alumnos WHERE nombre = 'Marzo'")
+cursor.execute("SELECT * FROM Alumnos WHERE nombre = 'pabo'")
 
 rows = cursor.fetchall()
 
