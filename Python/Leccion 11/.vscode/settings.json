@@ -1,0 +1,11 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:Leccion 11}/primerabase.sql",
+      "name": "leo"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
